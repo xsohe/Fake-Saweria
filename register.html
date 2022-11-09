@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="dist/output.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Comfortaa:wght@300;600;700&family=IBM+Plex+Mono:wght@200;400;700&display=swap" rel="stylesheet" />
+    <link href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css" rel="stylesheet" />
+    <title>Register | Saweria</title>
+  </head>
+  <body>
+    <section>
+      <div class="container">
+        <div class="mx-auto flex h-screen flex-wrap items-center justify-center">
+          <div class="w-[680px] px-4 py-6">
+            <div class="box-shadow mx-auto rounded-lg border border-slate-700 bg-gray-100">
+              <div class="py-4">
+                <img src="src/img/homepage_characters.svg" alt="char-register" class="mx-auto w-[180px] sm:w-[300px]" />
+                <h3 class="text-center text-4xl text-slate-800 sm:text-5xl"><a href="index.html">saweria.co</a></h3>
+              </div>
+              <div class="w-full py-6 px-4 font-Ibm">
+                <h3 class="text-center font-Comfortaa text-xl font-semibold sm:text-3xl">Registrasi</h3>
+                <label for="email"
+                  >Email: <span class="pb-4 text-pink-600">*</span>
+                  <input type="email" id="email" class="block w-full border-b border-slate-700 bg-transparent pt-5 pb-1 focus:border-sky-600 focus:outline-none" placeholder="email@pribadi.com" autocomplete="off" autofocus required
+                /></label>
+                <div class="flex w-full items-center py-4">
+                  <input id="email" type="checkbox" value="check" class="block h-4 w-4 cursor-pointer rounded border border-slate-700 bg-gray-100 text-blue-400 focus:outline focus:ring-2 focus:ring-blue-600 focus:ring-opacity-30" />
+                  <label for="email" class="ml-3 inline-block">Berusia 17 Tahun ke atas<span class="pl-1 text-pink-600">*</span></label>
+                </div>
+                <div class="flex w-full items-center pb-4">
+                  <input id="notComercil" type="checkbox" value="check" class="block h-4 w-4 cursor-pointer rounded border border-slate-700 bg-gray-100 text-blue-400 focus:outline focus:ring-2 focus:ring-blue-600 focus:ring-opacity-30" />
+                  <label for="notComercil" class="ml-3 inline-block">Tidak menggunakan saweria untuk jual beli / komersil<span class="pl-1 text-pink-600">*</span></label>
+                </div>
+                <div class="flex w-full items-center pb-4">
+                  <input id="notPorn" type="checkbox" value="check" class="block h-4 w-4 cursor-pointer rounded border border-slate-700 bg-gray-100 text-blue-400 focus:outline focus:ring-2 focus:ring-blue-600 focus:ring-opacity-30" />
+                  <label for="notPorn" class="ml-3 inline-block">Tidak menyebarkan konten terlarang (pornografi, judi, dll)<span class="pl-1 text-pink-600">*</span></label>
+                </div>
+                <div class="flex w-full items-center pb-4">
+                  <input id="notPorn" type="checkbox" value="check" class="block h-4 w-4 cursor-pointer rounded border border-slate-700 bg-gray-100 text-blue-400 focus:outline focus:ring-2 focus:ring-blue-600 focus:ring-opacity-30" />
+                  <label for="notPorn" class="ml-3 inline-block">Menyetujui <a href="terms.html" class="underline">syarat dan ketentuan</a><span class="pl-1 text-pink-600">*</span></label>
+                </div>
+                <p class="text-left text-sm sm:text-base">Melanggar syarat dan ketentuan dapat menyebabkan akun Anda untuk dinonaktifkan (ban) secara sepihak oleh saweria.</p>
+                <div class="flex items-center justify-center py-4">
+                  <div class="shadow-button w-full rounded-lg border border-slate-700 bg-sky-300 py-2 transition duration-300 ease-in-out">
+                    <a href="#" class="block text-center text-xl">Daftar</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <!-- footer -->
+            <div class="flex items-center justify-between pt-4">
+              <div class="text-left font-Ibm text-sm md:text-lg">
+                <p class="mb-2">Made with from 💙 XSOHE</p>
+                <p>PT Harta Tahta Sukaria</p>
+              </div>
+              <div class="text-right font-Ibm text-sm md:text-lg">
+                <ul>
+                  <a href="terms.html">
+                    <li class="underline transition duration-200 ease-in-out hover:no-underline">Syarat dan ketentuan</li>
+                  </a>
+                  <a href="faq.html">
+                    <li class="underline transition duration-200 ease-in-out hover:no-underline">FAQ</li>
+                  </a>
+                </ul>
+                <div class="flex items-center justify-end pt-2 text-2xl md:text-3xl">
+                  <a href="#" class="flex h-8 w-8 items-center justify-center hover:rounded-full hover:bg-slate-100 md:h-10 md:w-10"><i class="bx bx-envelope"></i></a>
+                  <a href="#" class="flex h-8 w-8 items-center justify-center hover:rounded-full hover:bg-slate-100 md:h-10 md:w-10"><i class="bx bxl-instagram"></i></a>
+                  <a href="#" class="flex h-8 w-8 items-center justify-center hover:rounded-full hover:bg-slate-100 md:h-10 md:w-10"><i class="bx bxl-twitter"></i></a>
+                  <a href="#" class="flex h-8 w-8 items-center justify-center hover:rounded-full hover:bg-slate-100 md:h-10 md:w-10"><i class="bx bxl-discord"></i></a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </body>
+</html>
